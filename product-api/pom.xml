@@ -30,6 +30,13 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<!-- Eureka Client - Service Discovery -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<version>5.0.2</version>
+			<scope>compile</scope>
+		</dependency>
 
 		<!-- Spring Boot Starter for Bean Validation / Jakarta Validation -->
 		<dependency>
